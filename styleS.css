@@ -1,0 +1,179 @@
+
+*{ 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color:rgb(229, 229, 229);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1c85ef;
+    margin-top: 50px;
+    padding: 2.5%;
+    font-size: 2.5em;
+    font-weight: 1000;
+    
+  }
+  
+  form {
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #ccc;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #1c85ef;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 750;
+    font-size: 1em;
+    height: 4vh; 
+  }
+ 
+  
+
+.footer{
+  background-color:#1c85ef;
+  color: black;
+  padding: 1em;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.footer-title{
+  font-size: 1.3em;
+  font-weight: 600;
+
+}
+.footer-title span{
+  color:white ;
+}
+
+.footer .social-icons a{
+  font-size: 1.5em;
+  padding:0 12px 0 0; 
+  color: white;
+
+}
+
+@media (max-width:1023px) {
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .footer-title{
+    font-size: 2em;  
+  
+  }
+  .footer .social-icons {
+    font-size: 2em;
+  }
+  form {
+    max-width: 90%;
+    margin: 0 auto;
+   
+  } 
+  label{
+    font-size: x-large;
+  }
+  input{
+    font-size: x-large;
+    height: max-content;
+    height: 4vh;
+  }
+  textarea{
+    font-size: x-large;
+    height: max-content;
+    height: 4vh; 
+  }
+  
+}
+
+
+
+
+
+
+wrapper {
+        margin: 80px auto;
+        text-align: center;
+        width: 100%;
+        position: relative;
+      }
+      .button {
+        padding: 15px 60px;
+        margin: 12px 5px;
+        color: #1c85ef;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid;
+        font-size: large;
+      }
+      .button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        -webkit-transform: scaleY(0.1);
+        transform: scaleY(0.1);
+        transition: all 0.4s;
+      }
+      .button:hover {
+        color: black;
+      }
+      .button:hover::before {
+        opacity: 1;
+        background-color: #1c85ef;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        transition: -webkit-transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity 0.4s;
+        transition: transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity;
+      }
+      .button {
+        position: fixed;
+        top: 0;
+        right: 0;
+      }
