@@ -265,7 +265,7 @@ section{
    }
 }
 
-@media (max-width:641px) {
+@media (max-width:700px) {
     body{
         font-size: 12px;
     }
@@ -278,14 +278,76 @@ section{
     .main{
         width: 50%;
         height: 50%;
+        background: url(imges/background2.jpg); 
+        background-size: 250%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        
+       
+      
     }
 
 }
 
-@media (max-width:300px) {
+@media (max-width:500px) {
     body{
         font-size: 10px;
     }
+    .main{
+        width: 50%;
+        height: 50%;
+        background: url(imges/background2.jpg); 
+        background-size: 300%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        
+       
+      
+    }
+    .main h2{
+        color: white;
+        font-size: 1.9em;
+        font-weight: 700;
+    
+    }
+    .main-btn2{
+        
+        font-size: 1.5em;
+
+        }
+
+     .main-btn {
+         
+            font-size: 1.5em;
+          
+           
+        }
+
+.navigation a{
+
+    font-size: 1.2em;
+    font-weight: 700;
+    
 }
+.card{
+
+    width:25em ;
+
 
     
+
+    }
+
+
+
+   .footer{
+    padding: 0.5em;
+   }
+   .footer-title{
+    font-size: 1em;
+    font-weight: 600;
+
+}
+}
