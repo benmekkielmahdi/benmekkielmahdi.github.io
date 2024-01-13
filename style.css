@@ -233,6 +233,31 @@ section{
     background-color:#03488d ;
     transform: scale(1.1);
 }
+/* WhatsApp button styles */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    background-color: #25bd5d; /* WhatsApp green color */
+    color: #fff;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0 5px 25px rgba(1, 1, 1,60% );
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Darker shade of WhatsApp green on hover */
+}
+.whatsapp-button i {
+    font-size: x-large;
+
+}
+
+
+
 
 
 
@@ -290,6 +315,7 @@ section{
 
 }
 
+
 @media (max-width:500px) {
     body{
         font-size: 10px;
@@ -308,7 +334,7 @@ section{
     }
     .main h2{
         color: white;
-        font-size: 1.9em;
+        font-size: 1.8em;
         font-weight: 700;
     
     }
@@ -331,14 +357,20 @@ section{
     font-weight: 700;
     
 }
-.card{
+.cards contact{
 
-    width:25em ;
+    width:10em ;
 
 
     
 
     }
+.cards .content{
+    font-size: larger;
+
+}
+
+
 
 
 
