@@ -170,6 +170,10 @@ section{
     font-size:1.2em;
     font-weight: 700;
     margin: 10px;
+    text-decoration: none;
+}
+.info a{
+    color: black;
 }
 .sorry{
     color: white;
@@ -353,13 +357,13 @@ section{
 
 .navigation a{
 
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 710;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 .cardscontact .card{
     font-size: smaller;
-    width: 200px;
+    width: 150px;
     padding: 20px;
     margin: 10px;
 }
