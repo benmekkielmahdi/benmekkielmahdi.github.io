@@ -354,12 +354,12 @@ section{
 .navigation a{
 
     font-size: 1.2em;
-    font-weight: 700;
-    
+    font-weight: 710;
+    padding-left: 10px;
 }
 .cardscontact .card{
     font-size: smaller;
-    width: 300px;
+    width: 200px;
     padding: 20px;
     margin: 10px;
 }
@@ -380,8 +380,13 @@ font-weight: 600;
     font-size: larger;
 
 }
+section{
+        padding: 60px 10px;
+    }
 
-
+    .title{
+        font-size: 3em;
+    }
 
 
 
