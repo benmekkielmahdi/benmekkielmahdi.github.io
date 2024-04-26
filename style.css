@@ -288,10 +288,18 @@ section{
         flex-direction: column;
         align-items: center;
     }
-   .main{
-    width: 30%;
-    height: auto;
-   }
+    .main{
+        width: 100%;
+        height: 100%;
+        background: url(imges/background.jpg); 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center ;
+        
+        
+       
+      
+    }
 }
 
 @media (max-width:700px) {
@@ -305,16 +313,20 @@ section{
         font-size: 1.4em;
     }
     .main{
-        width: 50%;
-        height: 50%;
-        background: url(imges/background2.jpg); 
-        background-size: 250%;
+        width: 100%;
+        height: 100%;
+        background: url(imges/background.jpg); 
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
+    
+
+
+    }
+
+    .social-icons a{
+        color: black;
         
-        
-       
-      
     }
 
 }
@@ -325,22 +337,37 @@ section{
         font-size: 10px;
     }
     .main{
-        width: 50%;
-        height: 50%;
-        background: url(imges/background2.jpg); 
-        background-size: 300%;
+        width: 100%;
+        height:100%;
+        align-items: center;
+        display: flex;
+        background: url(imges/background2.jpg);
+        background-size: 100%;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: top ;
+        background-attachment: fixed ;
+        
+    
         
         
        
       
     }
     .main h2{
+        
         color: white;
         font-size: 1.8em;
         font-weight: 700;
+        -webkit-text-stroke: 0.5px #1c85ef ;
     
+    }
+    .main h3{
+        
+        color: white;
+        font-size: 1.8em;
+        font-weight: 700;
+        -webkit-text-stroke: 0.5px #1c85ef;
+        
     }
     .main-btn2{
         
@@ -355,11 +382,20 @@ section{
            
         }
 
+        .social-icons a{
+            color: black;
+
+            font-size: 2.5em;
+            padding-right: 20px;
+            padding-left: 20px;
+            
+        }
 .navigation a{
 
     font-size: 1.1em;
     font-weight: 710;
     padding-left: 15px;
+    
 }
 .cardscontact .card{
     font-size: smaller;
